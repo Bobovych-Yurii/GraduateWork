@@ -1,0 +1,16 @@
+<app-search-word></app-search-word>
+
+<mat-card>
+    <mat-form-field>
+        <input matInput placeholder="dictionary name" dividerColor="primary" #dictName>
+      </mat-form-field>
+    <button mat-mini-fab color="primary" (click)='AddDict(dictName.value)'>
+        <mat-icon>send</mat-icon>
+    </button>
+</mat-card>
+<br>
+
+<div *ngFor="let dict of dictProvider.DictionaryList">
+    <app-dictionary-card [DictionaryName]="dict"></app-dictionary-card>
+    <br>
+</div>

@@ -1,0 +1,11 @@
+D:\projects\CSharp\GraduateWork\WordsAPI\obj\Debug\netcoreapp2.0\WordsAPI.csproj.CoreCompileInputs.cache
+D:\projects\CSharp\GraduateWork\WordsAPI\obj\Debug\netcoreapp2.0\WordsAPI.AssemblyInfoInputs.cache
+D:\projects\CSharp\GraduateWork\WordsAPI\obj\Debug\netcoreapp2.0\WordsAPI.AssemblyInfo.cs
+d:\projects\CSharp\GraduateWork\WordsAPI\bin\Debug\netcoreapp2.0\WordsAPI.deps.json
+d:\projects\CSharp\GraduateWork\WordsAPI\bin\Debug\netcoreapp2.0\WordsAPI.runtimeconfig.json
+d:\projects\CSharp\GraduateWork\WordsAPI\bin\Debug\netcoreapp2.0\WordsAPI.runtimeconfig.dev.json
+d:\projects\CSharp\GraduateWork\WordsAPI\bin\Debug\netcoreapp2.0\WordsAPI.dll
+d:\projects\CSharp\GraduateWork\WordsAPI\bin\Debug\netcoreapp2.0\WordsAPI.pdb
+d:\projects\CSharp\GraduateWork\WordsAPI\obj\Debug\netcoreapp2.0\WordsAPI.dll
+d:\projects\CSharp\GraduateWork\WordsAPI\obj\Debug\netcoreapp2.0\WordsAPI.pdb
+D:\projects\CSharp\GraduateWork\WordsAPI\obj\Debug\netcoreapp2.0\WordsAPI.csprojAssemblyReference.cache

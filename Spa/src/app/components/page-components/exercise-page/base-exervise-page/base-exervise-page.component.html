@@ -1,0 +1,11 @@
+
+<mat-card *ngFor="let word of dictProvider.DictionaryContainer[dictionaryName];let i = index">
+    <mat-card-title>{{word.Definition}}</mat-card-title>
+    <input matInput placeholder="word" dividerColor="primary" #wordInput>
+    <button mat-raised-button color="primary" (click)='Answer(wordInput.value,i,$event)' [disabled]='Status[i].Clicked'>Buttons</button>
+    <mat-icon *ngIf="Status[i].Correct && Status[i].Clicked">done</mat-icon>
+    <mat-icon *ngIf="!Status[i].Correct && Status[i].Clicked">close</mat-icon>
+</mat-card>
+
+
+{{CorrectAnser}} / {{WordAnswered}}

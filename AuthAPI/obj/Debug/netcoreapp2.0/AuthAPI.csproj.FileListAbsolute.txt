@@ -1,0 +1,11 @@
+D:\projects\CSharp\GraduateWork\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.deps.json
+D:\projects\CSharp\GraduateWork\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.runtimeconfig.json
+D:\projects\CSharp\GraduateWork\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.runtimeconfig.dev.json
+D:\projects\CSharp\GraduateWork\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.dll
+D:\projects\CSharp\GraduateWork\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.pdb
+D:\projects\CSharp\GraduateWork\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.csproj.CoreCompileInputs.cache
+D:\projects\CSharp\GraduateWork\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.AssemblyInfoInputs.cache
+D:\projects\CSharp\GraduateWork\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.AssemblyInfo.cs
+D:\projects\CSharp\GraduateWork\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.dll
+D:\projects\CSharp\GraduateWork\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.pdb
+D:\projects\CSharp\GraduateWork\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.csprojAssemblyReference.cache

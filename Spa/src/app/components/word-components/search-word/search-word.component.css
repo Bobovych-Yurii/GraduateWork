@@ -1,0 +1,15 @@
+#searchCard{
+    width:50%;
+    min-width: 200px;
+    margin: auto;    
+}
+#searchInput {
+     width: 100%; 
+}
+#searchButton {
+    float:right;
+}
+
+[hidden] {
+    display: none !important; 
+  }

@@ -1,0 +1,19 @@
+  <mat-card id="searchCard">
+    <mat-form-field id="searchInput">
+      <input matInput placeholder="Search word" dividerColor="accent" #word>
+    </mat-form-field>    
+    <button id="searchButton" mat-raised-button (click)="GetWordData(word.value)">Search</button>
+    
+  </mat-card>
+<br>
+
+
+<div [hidden]='hideList'>
+<button mat-mini-fab color="primary" (click)='Close()' >
+  <mat-icon>close</mat-icon>
+</button>
+
+<div>
+  <app-word-card *ngFor="let word of searchRes" [word]='word' [searchComp]='true'></app-word-card>
+</div>
+</div>

@@ -1,0 +1,6 @@
+<button id="searchButton" mat-raised-button [routerLink]='"/exercise/"+dictionaryName'>Start Exercise</button>
+<button id="searchButton" (click)='Delete()' [routerLink]='"/dictionary/"'>Delete</button>
+<div>
+  <app-word-card *ngFor="let word of dictProvider.DictionaryContainer[dictionaryName]" [word]='word'></app-word-card>
+</div>
+

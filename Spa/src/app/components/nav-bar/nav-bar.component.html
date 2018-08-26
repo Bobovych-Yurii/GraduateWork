@@ -1,0 +1,31 @@
+
+  <div class="desktop">
+      <mat-toolbar color="primary">
+    <button mat-button [routerLink]="['/post']"><span>Posts</span> </button>
+    <button mat-button [routerLink]="['/dictionary']"><span>Dictionarty</span> </button>
+    <button mat-button [routerLink]="['/account']"><span>Account</span> </button>
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+    <app-sign-in [buttonClass]="'mat-button'"></app-sign-in>
+    
+  </mat-toolbar>
+  </div>
+ 
+  
+  <div class="mobile">
+      <mat-toolbar color="primary">
+        <button mat-button [matMenuTriggerFor]="menu" >Menu</button>
+        <mat-menu #menu="matMenu" color="primary">
+            <button mat-menu-item [routerLink]="['/post']"><span>Posts</span> </button>
+            <button mat-menu-item [routerLink]="['/dictionary']"><span>Dictionarty</span> </button>
+            <button mat-menu-item [routerLink]="['/account']"><span>Account</span> </button>
+            <app-sign-in [buttonClass]="'mat-menu-item'"></app-sign-in>
+      </mat-menu>
+    </mat-toolbar>
+  </div>
+
+ 
+
+
+
+

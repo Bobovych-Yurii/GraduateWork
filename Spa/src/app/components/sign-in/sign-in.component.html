@@ -1,0 +1,2 @@
+<button [ngClass]="buttonClass"  *ngIf="!localStorageService.authToken" (click)="LogIn()"><span>log in</span></button>
+<button [ngClass]="buttonClass"  *ngIf="!!localStorageService.authToken"  (click)="LogOut()"><span>log out</span></button>

@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{word.Word}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>Definition: {{word.Definition}}</p>
+        <br>
+        <span>Example: {{word.Example}}</span>
+    </mat-card-content>
+    <button mat-fab  color="primary" *ngIf="!searchComp" (click)='Delete()'>
+        <span>Delete</span>
+    </button>
+    <button mat-fab [matMenuTriggerFor]="menu" color="primary" *ngIf="searchComp">
+        <mat-icon>send</mat-icon>
+    </button>
+</mat-card>
+
+
+<mat-menu #menu="matMenu" color="primary" > 
+    <button *ngFor="let dictionaryName of dictProvider.DictionaryList" mat-menu-item  (click)="AddToDictionary(dictionaryName)"><span>{{dictionaryName}}</span>
+    </button>
+</mat-menu>
